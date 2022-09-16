@@ -34,7 +34,7 @@ btnTranslate.addEventListener("click", clickEventHandler)
 
 
 
-// Soham code
+// Soham taught code
 
 // const inputElement = document.querySelector('.input');
 // const translateBtn = document.querySelector('.translate-btn');
@@ -60,5 +60,3 @@ btnTranslate.addEventListener("click", clickEventHandler)
 // translateBtn.addEventListener('click', function () {
 //     fetchDetails(inputElement.value)
 // })
-
-
