@@ -1,0 +1,7 @@
+.textArea {
+    width: 70%;
+    height: fit-content;
+    margin: 2rem 1rem;
+    padding: 1rem;
+    display: block;
+}
