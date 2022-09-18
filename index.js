@@ -20,20 +20,20 @@
 
 // Step 0 -> call fetchDetails function on button click
 
-var btnTranslate = document.querySelector("#btn-translate");
+var btnTranslate = document.querySelector(".btn-translate");
 var txtInput = document.querySelector("#txt-input")
 var output = document.querySelector(".output")
 
 function clickEventHandler() {
     console.log("Clicked!!")
-    console.log("input", txtInput.value)
+    console.log(txtInput.value)
     translate(txtInput.value)
 }
 
 btnTranslate.addEventListener("click", clickEventHandler)
 
 function translate(inputText) {
-    fetch(`https://api.funtranslations.com/translate/valyrian.json?text=${inputText}`)
+    fetch(`https://api.funtranslations.com/translate/minion.json?text=${inputText}`)
         .then(function (response) {
             return response.json()
         })
