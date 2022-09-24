@@ -1,105 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Cinzel:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Cinzel:wght@600&display=swap");
 
 :root {
-    --primary-color: #990000;
-    --secondary-color: #FF9F45;
-    --dark-grey:  #231f20;
-    --white: #ffffff;
+  --primary-color: #990000;
+  --secondary-color: #ff9f45;
+  --dark-grey: #231f20;
+  --white: #ffffff;
 }
 
-body{
-    background-color: var(--white);
-    font-family: 'Cinzel', serif;
-    margin: 0rem;
+body {
+  background-color: var(--white);
+  font-family: "Cinzel", serif;
+  margin: 0rem;
 }
 
-
-.navigation{
-    background-color: var(--primary-color);
-    color: var(--white);
-    text-align: center;
-    font-size: 40px;
-    height: 6rem;
+.navigation {
+  background-color: var(--primary-color);
+  color: var(--white);
+  text-align: center;
+  font-size: 40px;
+  height: 6rem;
 }
 
-.navigation .navImg{
-    text-align: center;
-    height: 6rem;
-    object-fit: contain;
+.navigation .navImg {
+  text-align: center;
+  height: 6rem;
+  object-fit: contain;
 }
 
-.right-column{
-    text-align: center;
-    margin-right: 2rem;
-    display: block;
+.right-column {
+  text-align: center;
+  margin-right: 2rem;
+  display: block;
 }
-.heading{
-    font-size: 30px;
-    text-align: center;
-    color: var(--dark-grey);
-    margin: 1rem;
-    /* display: inline; */
+.heading {
+  font-size: 30px;
+  text-align: center;
+  color: var(--dark-grey);
+  margin: 0.5rem;
 }
 
-.heading2{
-    font-size: 30px;
-    text-align: center;
-    color: var(--dark-grey);
-    margin: 1rem;
-    /* display: inline; */
+.heading2 {
+  font-size: 30px;
+  text-align: center;
+  color: var(--dark-grey);
+  margin: 0.5rem;
 }
 
 .textArea {
-    width: 25%;
-    min-height: 20vh;
-    margin: auto;
-    padding: 1rem;
-    /* display: inline; */
-    border: 2px solid var(--secondary-color);
-    border-radius: 5px;
-    margin: 3rem;
+  width: 25%;
+  min-height: 20vh;
+  margin: auto;
+  padding: 1rem;
+  /* display: inline; */
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+  margin: 3rem;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 .btn-translate {
-    background-color: var(--secondary-color);
-    border: 1px solid var(--secondary-color);
-    border-radius: 10px;
-    font-size: 25px;
-    padding: 8px;
-    /* display: inline; */
-    font-family: 'Cinzel', serif;
-    color: var(--primary-color);
-    margin: 1rem auto;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 8px;
+  font-family: "Cinzel", serif;
+  color: var(--primary-color);
+}
+
+.btn-translate:hover {
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .output {
-    width: 30%;
-    min-height: 10vh;
-    margin: auto;
-    padding: 1rem;
-    /* display: inline; */
-    border: 2px solid var(--secondary-color);
-    border-radius: 5px;
+  width: 30%;
+  min-height: 10vh;
+  margin: auto;
+  padding: 1rem;
+  /* display: inline; */
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
 }
 
 .footer {
-    background-color: var(--primary-color);
-    padding: 1rem;
-    margin-top: 2rem;
-    /* margin-bottom: 0rem; */
+  background-color: var(--primary-color);
+  padding: 1rem;
+  margin-top: 2rem;
+  /* margin-bottom: 0rem; */
 }
 
 .footer-heading {
-    font-size: 30px;
-    text-align: center;
-    color: var(--white);
+  font-size: 30px;
+  text-align: center;
+  color: var(--white);
 }
 
 .footer-container {
-    font-size: 15px;
-    text-align: center;
-    max-width: 1200px;
-    margin: auto;
-    color: var(--white);
-
+  font-size: 15px;
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+  color: var(--white);
 }
